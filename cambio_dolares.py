@@ -20,7 +20,7 @@ def run():
     
         ammount = float(raw_input('Ingresa la cantidad de pesos mexicanos que quieres convertir: '))
     
-        result = pesos_dolares(ammount)
+        result = dolares_pesos(ammount)
         print('')
         print('#### ${} pesos mexicanos son ${} dolares ####'.format(ammount, result))
         print('')
@@ -28,7 +28,7 @@ def run():
     if question == 2:
         ammount = float(raw_input('Ingresa la cantidad de dolares que queres convertir: '))
     
-        result = dolares_pesos(ammount)
+        result = pesos_dolares(ammount)
         print('')
         print('#### ${} dolares son ${} pesos mexicanos ####'.format(ammount, result))
         print('')
